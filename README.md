@@ -11,15 +11,26 @@ Download the dataset from [here](http://www.peterjbentley.com/heartchallenge/ind
 Steps to run the project:
 
 Step 1: Install VS Code and Install the required tools to run the project such as Django.
+
 Step 2: Install XAMPP server to access phpMyAdmin SQL database.
+
 Step 3: Open the project folder through VS Code.
+
 Step 4: Open phpMyAdmin and create a MySQL database named patient_db.
+
 Step 5: Open the terminal and run $ python manage.py migrate to migrate the database. 
+
 Step 6: Run $ python manage.py migrate --run-syncdb to sync the database and create a table.
+
 Step 7: Run the project using $ python manage.py runserver.
+
 Step 8:  Open the web browser and go to http://127.0.0.1:8000/.
+
 Step 9:  Register as a new user by providing login credentials.
+
 Step 10:  Login to the system by using email and password.
+
 Step 11: Upload the audio file of the heart beat in .wav format for detecting the Heartbeat anomaly.
+
 Step 12: Get the prediction result as either Normal or Abnormal Heartbeat.     
 
